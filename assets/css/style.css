@@ -1,0 +1,192 @@
+body
+{
+font-family: "微軟正黑體";
+background:#e0ffff;
+}
+header
+{
+text-align: center;
+}
+nav.eee
+{
+background-color:#e6e6fa;
+text-align:center;
+font-size: 18pt;
+width: 50%
+}
+a.nav
+{
+text-decoration:none;
+color:black;
+font-family: "微軟正黑體";
+font-weight: bold;
+padding: 5px;
+}
+a:hover {
+text-decoration:none;
+color:green;
+}
+img.pho
+{
+position: relative;
+padding-right: 40px;
+top:3%;
+width: 305px;
+float: left;
+}
+img.life
+{
+position: relative;
+padding: 40px;
+top:3%;
+width: 305px;
+float: left;
+}
+img.school
+{
+position: relative;
+padding-left: 20px;
+top:3%;
+border:white 1pt;
+width: 150px;
+float: left;
+}
+img.banner
+{
+width: 50%;
+}
+img.logo
+{
+width: 50%;
+}
+img.bgp
+{
+position: relative;
+right: 2em;
+bottom: 5%;
+width: 30%;
+float: right;
+
+}
+figcaption.school
+{
+	clear:left;
+	text-align: center;
+	font-size: 14pt;
+	font-weight: bold;
+}
+div.intro
+{
+font-size:13pt;
+font-family: "微軟正黑體";
+text-align: left;
+padding:20px 20px 20px 20px;
+}
+div.life
+{
+font-size:13pt;
+font-family: "微軟正黑體";
+text-align: left;
+padding:20px 20px 0px 20px;
+columns: 2 ;
+column-rule: #ffd9e6 dashed 2px;
+}
+#despart
+{
+column-break-before:auto;
+}
+section
+{
+margin: 0px 15% 0px 15%;
+}
+section.fio
+{
+background-color: #fffdd0;
+height: 100%
+}
+.clearfix:after /*讓圖片浮動後不脫離背景*/
+{
+content:".";
+display: block;
+height: 0;
+clear:both;
+visibility: hidden;
+}
+ul.intr
+{
+list-style: none;
+text-align: center;
+}
+ul.nav
+{
+list-style: none;
+text-align: center;
+columns:5;
+column-rule: #483d8b solid  thin;
+}
+aside.contact
+{
+position: fixed;
+right:0;
+top:50%;
+width: 15em;
+border: #e32636 dashed	1pt;
+background-color: #ffffff ;
+border-radius: 30% 0% 0% 30%;
+z-index: 1;
+opacity:0.8;
+}
+aside.top
+{
+position: fixed;
+left:3em;
+top:90%;
+width: 15em;
+z-index: 1;
+}
+footer
+{
+background-color: #404040;
+color: white;
+text-align: center;
+clear: both;
+}
+#h1_left
+{
+	text-shadow: 5px 8px 5px #db7093;
+position: relative;
+top:-10px;
+left:75%;
+background-color: #ffd9e6;
+margin: 5px;
+text-align:left;
+padding: 0px 1px 1px 1px;
+width: 400px;
+}
+hr
+{
+position: relative;
+top:-5px;
+height:1px;
+border: none;
+background: #ff8095;
+}
+hr.inside
+{
+position: relative;
+top:0px;
+height:1px;
+border: none;
+background: #ffb3bf;
+width: 90%;
+}
+h2
+{position: relative;
+	left: 50px;
+	text-shadow: 5px 8px 2px #d3d3d3;
+
+}
+	p
+	{
+		text-align: center;
+	}
